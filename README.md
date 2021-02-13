@@ -1,5 +1,5 @@
-# Xero Webhook Reciever - NetStandard
-This is application demostrates how to recieve webhooks from Xero.
+# Xero Webhook Receiver - NetStandard
+This application demonstrates how to receive webhooks from Xero.
 
 <b> Application Features </b>
 
@@ -24,7 +24,7 @@ This is application demostrates how to recieve webhooks from Xero.
 ### Making your server accessible from Xero (Ngrok)
 1. Download ngrok using this [guide](https://www.twilio.com/docs/usage/tutorials/how-use-ngrok-windows-and-visual-studio-test-webhooks#:~:text=Chose%20%22Start%20ngrok%20Tunnel%22%20from,that%20URL%20in%20your%20browser)
 1. Set you app's webhook delivery URL to {negrok_address}**/webhooks** (e.g. https://daaf38b6.ngrok.io/webhooks) in the developer portal 
-1. Create or modify any contact or invoice in a Xero Organistatino connected to your app and wait for the event to arrive, solution will display info in console
+1. Create or modify any contact or invoice in a Xero Organisation connected to your app and wait for the event to arrive, solution will display info in console
 
 ## Solution Structure
 Directory | Description
