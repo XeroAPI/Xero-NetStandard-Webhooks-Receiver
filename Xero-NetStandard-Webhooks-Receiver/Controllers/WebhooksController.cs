@@ -65,7 +65,7 @@ namespace XeroNetStandardWebhooks.Controllers
             using (var hmac = new HMACSHA256(keyByte)){
                 byte[] hashMessage = hmac.ComputeHash(payloadByte);
                 var hashMsg = Convert.ToBase64String(hashMessage);
-                return Convert.ToBase64String(hashMessage) == signature ? true : false;
+                return hashMsg == signature ? true : false;
             }
         }
 
