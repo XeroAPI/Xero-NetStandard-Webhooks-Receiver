@@ -7,3 +7,46 @@ PAYLOAD:
      "firstEventSequence": 0,
      "entropy": "S0m3r4Nd0mt3xt"
   }
+HEADER:
+   "x-xero-signature" : HASH_VALUE
+PAYLOAD:
+  {
+     "events": [],
+     "lastEventSequence": 0,
+     "firstEventSequence": 0,
+     "entropy": "S0m3r4Nd0mt3xt"
+  }
+{
+   "events": [
+      {
+         "resourceUrl": "https://api.xero.com/api.xro/2.0/Contacts/717f2bfc-c6d4-41fd-b238-3f2f0c0cf777",
+         "resourceId": "717f2bfc-c6d4-41fd-b238-3f2f0c0cf777",
+         "eventDateUtc": "2017-06-21T01:15:39.902",
+         "eventType": "Update",
+         "eventCategory": "CONTACT",
+         "tenantId": "{
+  "Id": "e5ccbe19-6e4f-4080-96d1-87bb103a92cc",
+  "Status": "OK",
+  "ProviderName": "API Explorer",
+  "DateTimeUTC": "\/Date(1661666672843)\/",
+  "Users": [
+    {
+      "GlobalUserID": "d86ed7be-ad1f-49e4-92d8-edfced386275",
+      "UserID": "b4d803ef-4530-48bc-8541-78576145d823",
+      "EmailAddress": "sammedina0882@gmail.com",
+      "FirstName": "Samuel",
+      "LastName": "R medina",
+      "UpdatedDateUTC": "\/Date(1660941928560+0000)\/",
+      "IsSubscriber": true,
+      "OrganisationRole": "STANDARD"
+    }
+  ]
+}",
+         "tenantType": "ORGANISATION"
+      }
+   ],
+   "lastEventSequence": 1,
+   "firstEventSequence": 1,
+   "entropy": "S0m3r4Nd0mt3xt"
+
+}
