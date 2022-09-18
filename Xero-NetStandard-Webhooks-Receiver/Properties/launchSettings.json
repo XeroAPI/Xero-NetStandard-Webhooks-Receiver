@@ -3,8 +3,8 @@
     "windowsAuthentication": false, 
     "anonymousAuthentication": true, 
     "iisExpress": {
-      "applicationUrl": "http://localhost:51900",
-      "sslPort": 44376
+      "applicationUrl": ,https://api.xero.com/bankfeeds.xro/1.0/FeedConnection
+      "sslPort": 
     }
   },
   "profiles": {
@@ -18,7 +18,7 @@
     "Xero_NetStandard_Webhooks_Receiver": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "applicationUrl":"POST https://api.xero.com/bankfeeds.xro/1.0/FeedConnections
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
