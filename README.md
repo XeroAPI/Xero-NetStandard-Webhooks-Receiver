@@ -1,3 +1,5 @@
+📍 __Notice__ This application is now in Read Only status as it is now deprecated
+
 # Xero Webhook Receiver - NetStandard
 This application demonstrates how to receive webhooks from Xero.
 
